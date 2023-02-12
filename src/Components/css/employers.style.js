@@ -1,0 +1,276 @@
+import styled from 'styled-components'
+
+export const Employer = styled.div`
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.sub-ctnr{
+    /* width:100%; */
+    /* margin: 100px auto; */
+    padding: 5%;
+    /* position: relative; */
+}
+
+
+.App-header{
+    background-color: black;
+    color: whitesmoke;
+    padding: 1px;
+}
+
+.nav-tabs{
+    margin: 20px;
+
+}
+
+.tabs{
+    text-decoration: none;
+    margin: 0px 20px;
+    padding: 20px 0px;
+    color: whitesmoke;
+}
+
+.logo{
+    margin-right: 20px;
+    
+}
+
+.right-tabs{
+    float: right;
+}
+
+#signin{
+    border-right: solid 0.5px  grey;
+    border-left: solid 0.5px  grey;
+    padding: 5px 30px ;
+    color: rgb(50, 80, 170);
+    font-weight: 600;
+}
+
+
+img{
+    width: 40%;
+    text-align: end;
+    display: inline-block;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.b-txt{
+    font-size: 60px;
+    position: relative;
+    top: 0px;
+    margin-left: 25px;
+    width: 58%;
+    text-align: left;
+}
+
+header{
+    
+    height: 250px;
+    
+    /* background-color: whitesmoke; */
+    justify-content: baseline;
+    position: relative;
+    
+}
+
+/* .cl2-3{
+    width: 58%;
+    text-align: left;
+    
+} */
+
+.ca-btn{
+    text-decoration: none;
+    background-color: royalblue;
+    color: aliceblue;
+    font-weight: 800;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.bg-btn{
+    padding: 20px 70px;
+    font-size: large;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+    margin: 200px 0px;
+}
+.box{
+    /* width: 300px; */
+    height: 250px;
+    border: solid 0.5px black;
+    font-size: larger;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 5px 5px 10px #F4AAB9;
+}
+
+.bg-smk{
+    background-color: whitesmoke;
+    height: 900px;
+    padding-right: 0px;
+}
+
+.wrap-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    position:relative;
+    top: 6%;
+    margin-right: 0px;
+    background-color: white;
+    height: 600px;
+}
+
+.i-box{
+    /* height: 100px; */
+    /* border: solid 1px black; */
+    font-size: larger;
+    width: 60%;
+    padding: 25px;
+}
+
+.cl3-3{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+    padding-bottom: 200px;
+    display: inline-flex;
+}
+
+.txt-gap{
+    margin-left: 25px;
+    width: 58%;
+    font-size: x-large;
+}
+
+h2{
+    color: royalblue;
+}
+.r-float{
+    /* float: right; */
+    /* display: inline-flex; */
+    text-align: left;
+    margin-top: 20px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+.r-float p{
+    margin: 0px;
+    margin-right: 20px;
+}
+
+.c-float{
+    width: 50%;
+    text-align: center;
+    margin: 0px auto;
+    padding: 2%;
+}
+
+.e-box{
+    background-color: white;
+    margin-left: 30%;
+    margin-top: 100px;
+    padding: 20px;
+    
+}
+
+.box p{
+    margin-top: 60px;
+}
+
+.d-pads{
+    padding: 80px;
+}
+
+.testi{
+    position: relative;
+    height: 450px;
+    background-color: royalblue;
+    width: 100%;
+}
+
+.p-testi{
+    width: 30%;
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+.limage{
+    width: 700px;
+    height: 600px;
+    position: absolute;
+    z-index: 10;
+    right: 0px;
+    top: 0px;
+    
+}
+.testi img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.st-pstn{
+    height: 400px;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.wrap-2{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 200px;
+    background-color:lightgrey;
+    column-gap: 50px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.cl-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* column-gap: 20px; */
+}
+.cl-3 ul{
+    font-size: small;
+}
+
+.btn-gap{
+    margin: 40px;
+}
+
+.i-space{
+    margin: 40px 0px;
+}
+
+footer{
+    /* height: 50px; */
+    padding: 20px 80px;
+}
+
+.large{
+    font-size: large;
+}
+
+.ic-space{
+    margin: 0px 10px;
+}
+`

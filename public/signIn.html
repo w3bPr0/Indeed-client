@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="css/signIn.css" />
+</head>
+<body class="si-ctnr">
+    <div id="newroot"></div>
+    <h1>Indeed</h1>
+    <div class="si-ctnr-bx">
+        <h3>Ready to take the next step?</h3>
+        <p>Create an account or sign in.</p>
+            <div class="card">
+                <a class="btn btn-block" href="/auth/google" role="button">
+                  <i class="fab ion fa-google"></i>
+                  Sign In with Google
+                </a>
+            </div>
+            <div class="card">
+                <a class="btn btn-block" href="/auth/facebook" role="button">
+                  <i class="fab ion fa-facebook"></i>
+                  Sign In with Facebook
+                </a>
+            </div>
+            
+        <div></div>
+        <hr>
+        <p id="or">or</p>
+        <form action="/" method="post">
+            <label for="email">Email address <span class="dngr">*</span></label><br>
+            <input type="email" name="uMail" id="email">
+            <p>By creating an acount or logging in, you understand
+                and agree to Indeed's <a href="#">Terms</a>. You also
+                acknowledge our <a href="#">Cookie</a> and <a href="#">Privacy</a>
+                policies. You will receive marketing messages from Indeed and 
+                may opt out at any time by following the unsubscribe link 
+                in our messages, or as detailed in our terms.
+            </p>
+            <button type="submit">Continue -></button>
+        </form>
+    </div>
+
+    <div>
+        <a class="tabs" >Browse Jobs</a>
+        <a class="tabs" >Browse Companies</a>
+        <a class="tabs">Countries</a>
+        <a class="tabs" >About</a>
+        <a class="tabs" >Help Center</a>
+      </div>
+      <div>
+        <span class="date">© 2022 Indeed</span>
+        <a class="tabs" >Accessibility at Indeed</a>
+        <a class="tabs" >Privacy Center</a>
+        <a class="tabs" >Cookies</a>
+        <a class="tabs" >Privacy</a>
+        <a class="tabs" >Terms</a>
+      </div>
+    <script src="../src/signIn.js" type="text/jsx"></script>
+  
+</body>
+</html>
